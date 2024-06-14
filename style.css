@@ -1,0 +1,272 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem 0;
+}
+
+.navbar h1 {
+    display: flex;
+    margin-right: auto;
+    font-family: "Newsreader", sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 32px;
+    color: #141E0C;
+}
+
+.navbar-p {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-family: "Libre Franklin", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 26px;
+    color: #141E0C;
+}
+
+.navbar-button {
+    display: flex;
+    padding: 1rem;
+    margin-left: 200px;
+    background-color: #476730;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    gap: 0.5rem;
+}
+
+
+.navbar-button>p {
+    font-family: "Libre Franklin", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 26px;
+    color: #FFFFFF;
+    list-style: none;
+}
+
+.navbar-button>li {
+    color: #fff;
+}
+
+
+
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.section-div {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 1rem;
+}
+
+.section-div>h1 {
+    font-family: "Newsreader", sans-serif;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 76.8px;
+    letter-spacing: -0.02em;
+    color: #141E0C;
+}
+
+.section-div>p {
+    font-family: "Libre Franklin", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    color: #141E0C;
+}
+
+.section-2-div {
+    display: flex;
+    margin-top: 3rem;
+    gap: 2rem;
+    overflow: auto;
+    max-height: 500px;
+    flex-direction: column;
+    width: 70%;
+}
+
+
+
+.section-card {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    border: 2px solid #E1E4D9;
+    border-radius: 20px;
+    width: 821px;
+}
+
+.section-card>img {
+    width: 166px;
+    height: 166px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.section-card-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.section-card-text>h1 {
+    font-family: "Libre Franklin", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 26px;
+    color: #141E0C;
+}
+
+.section-card-text>p {
+    font-family: "Libre Franklin", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #74796D;
+}
+
+.section-card-text>div {
+    display: flex;
+    background-color: #EDEFE4;
+    width: 104px;
+    height: 38px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.section-card>h1 {
+    display: flex;
+    margin-left: auto;
+    padding-right: 10px;
+    padding-bottom: 70px;
+}
+
+
+.section-card-2 {
+    display: flex;
+    gap: 1rem;
+    background-color: #E1E4D9;
+    width: 30%;
+    justify-content: flex;
+    align-items: center;
+    height: 320px;
+    border-radius: 20px;
+}
+
+.section-card3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-2-flex {
+    display: flex;
+    gap: 20px;
+}
+
+.section-2-button {
+    display: flex;
+}
+
+.order {
+    width: 395px;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    background-color: #EDEFE4;
+    border-radius: 24px;
+    margin-top: 3rem;
+}
+
+.order h1 {
+    font-family: Newsreader;
+    font-size: 32px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 41.6px;
+    text-align: left;
+
+}
+
+.order-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: calc(395px - 48px);
+    flex-direction: column;
+}
+
+.order-info h2 {
+    font-family:  "Arial", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    margin-top: 1rem;
+}
+
+.order-info h2 span {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: right;
+    margin-left: 2rem;
+}
+
+.order-button{
+    width: 347px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    color: white;
+    border-radius: 24px;
+    background-color: #476730;
+    margin-top: 1rem;
+    border: 1px solid white;
+    list-style: none;
+}
+
+
+.order-button > h1 {
+    font-family: "Arial Narrow", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 26px;
+}
+
+.order-info >img{
+    background-color: #fff;
+
+}
